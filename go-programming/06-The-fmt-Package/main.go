@@ -34,6 +34,16 @@ func main() {
 
 	// Verbo %s para imprimir el valor de los strings
 	fmt.Printf("El valor de la variable a es: %s\n", b)
+
+	// Sprint
+	s1 := fmt.Sprint("El ", b, " dice hola mundo")
+	fmt.Println(s1)
+	// El Programa dice hola mundo
 	
-	
+	username := "John"
+	fmt.Println(greeting(username))
+}
+
+func greeting(name string) string {
+	return fmt.Sprint("Hello ", name)
 }
