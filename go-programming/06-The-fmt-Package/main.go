@@ -8,6 +8,8 @@ var c bool
 var d bool = true
 
 func main() {
+	// https://pkg.go.dev/fmt
+
 	e := 42
 	f := "dice hola mundo"
 	g := `El doctor dice que comer vegetales es saludable`
