@@ -8,6 +8,15 @@ import "fmt"
 // func main es el punto de inicio del programa
 // en main se llama al paquete importado
 func main() {
+
+	word := "World"
+	fmt.Println(greeting(username))
+
 	// paquete fmt - funcion Println
-	fmt.Println("Hello, Hugo!")
+	fmt.Println(greeting(word))
+}
+
+
+func greeting(name string) string {
+	return fmt.Sprint("Hello ", name)
 }
