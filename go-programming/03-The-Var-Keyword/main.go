@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// puedo acceder a la variable z desde cualquier parte de nuestro codigo
+// puedo acceder a la variable z desde el scope del paquete
 var z = 21
 
 func main() {
