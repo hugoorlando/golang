@@ -4,6 +4,7 @@ import "fmt"
 
 // Declarando la variable con el identificador z de tipo int
 var z int
+var a bool
 
 func main() {
 	z = 21
@@ -14,4 +15,7 @@ func main() {
 
 	// nil para:
 	// pointers, funciones, interfaces, slices, channels, maps
+
+	// var se usa cuando inicializamos variables con valores 0
+	fmt.Println(a)
 }
