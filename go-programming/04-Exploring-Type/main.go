@@ -14,6 +14,9 @@ func main() {
 	b = 27
 	fmt.Println(b)
 
+	var c string
+	c = "Brasil"
+
 	// Esto no se puede hacer ya que el tipo string a no puede recibir un int y el tipo int b no puede recibir un tipo string
 	// a = 27
 	// b = "John"
