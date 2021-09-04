@@ -17,5 +17,9 @@ func main() {
 	fmt.Println(a != b)
 
 	fmt.Printf("El valor b es de tipo: %T\n", b)
+
+	fmt.Println(true && false)
+    fmt.Println(true || false)
+    fmt.Println(!true)
 	
 }
